@@ -1,0 +1,44 @@
+/* Apply a margin and padding to the ul to create space around the list */
+ul {
+  list-style: none; /* Remove the default list bullets */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style the list items */
+li {
+  margin-bottom: 15px; /* Add spacing between each list item */
+  padding: 15px; /* Add padding to the list items */
+  border: 1px solid #ccc; /* Add a border around each list item */
+  border-radius: 8px; /* Add rounded corners to the list items */
+  background-color: #f9f9f9; /* Set a background color for the list items */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  transition: background-color 0.2s; /* Add a smooth transition for background color */
+}
+
+/* Style the list items on hover for interactivity */
+li:hover {
+  background-color: #e0e0e0; /* Change the background color on hover */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Style the <p> elements inside the <li> elements */
+li p {
+  margin: 0; /* Remove the default margin on <p> elements */
+  font-size: 18px; /* Increase the font size for <p> elements */
+  color: #333; /* Set the text color for <p> elements */
+  font-weight: bold; /* Apply bold font weight to the text */
+  text-align: center; /* Center-align the text within <p> elements */
+  margin-top: 5px;
+}
+
+/* Style the <p> elements inside the <li> elements on hover */
+li:hover p {
+  color: #555; /* Change the text color on hover for <p> elements */
+}
+
+.list-item button {
+  text-align: center;
+  margin-top: 10px;
+}
